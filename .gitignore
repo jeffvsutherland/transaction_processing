@@ -45,3 +45,4 @@ output/
 .DS_Store
 *.log
 *.pdf # if you decide not to include PDFs
+transaction_processor.egg-info/
