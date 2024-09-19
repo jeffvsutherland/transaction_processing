@@ -41,4 +41,4 @@ env/
 input/
 output/
 *.csv
-*.log
+*.log.venv/
