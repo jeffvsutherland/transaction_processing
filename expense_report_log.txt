@@ -1,0 +1,434 @@
+2024-08-14 09:02:49,082 - INFO - Output directory created/verified: transaction_processing/output
+2024-08-14 09:02:49,083 - INFO - Merged DataFrame shape: (2, 10)
+2024-08-14 09:02:49,083 - INFO - Merged DataFrame columns: Index(['date', 'time', 'vendor', 'amount', 'currency', 'bank', 'card_no',
+       'employer', 'category', 'note'],
+      dtype='object')
+2024-08-14 09:02:49,083 - INFO - Generating expense reports...
+2024-08-14 09:02:49,404 - INFO - Final report written to: transaction_processing/output/Final_Expense_Report_20240814_090249.md
+2024-08-14 09:02:49,737 - INFO - Script execution completed.
+2024-08-14 09:07:19,919 - INFO - Output directory created/verified: transaction_processor/output
+2024-08-14 09:07:19,919 - INFO - Merged DataFrame shape: (2, 10)
+2024-08-14 09:07:19,919 - INFO - Merged DataFrame columns: Index(['date', 'time', 'vendor', 'amount', 'currency', 'bank', 'card_no',
+       'employer', 'category', 'note'],
+      dtype='object')
+2024-08-14 09:07:19,919 - INFO - Generating expense reports...
+2024-08-14 09:07:19,923 - INFO - Final report written to: transaction_processor/output/Final_Expense_Report_20240814_090719.md
+2024-08-14 09:07:19,923 - INFO - Script execution completed.
+2024-08-14 09:10:49,250 - INFO - Output directory created/verified: transaction_processor/output
+2024-08-14 09:10:49,251 - INFO - Merged DataFrame shape: (2, 10)
+2024-08-14 09:10:49,251 - INFO - Merged DataFrame columns: Index(['date', 'time', 'vendor', 'amount', 'currency', 'bank', 'card_no',
+       'employer', 'category', 'note'],
+      dtype='object')
+2024-08-14 09:10:49,251 - INFO - Generating expense reports...
+2024-08-14 09:10:49,252 - INFO - Expense reports content: # Expense Report
+
+Period: 2023-01-01 to 2023-12-31
+
+## Employer1 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:10:49.250743 | N/A | -100.00 | Employee Development | Note1 |
+
+Total: $-100.00
+
+## Employer2 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:10:49.250744 | N/A | -200.00 | Office Supplies | Note2 |
+
+Total: $-200.00
+
+
+2024-08-14 09:10:49,256 - INFO - Final report written to: transaction_processor/output/Final_Expense_Report_20240814_091049.md
+2024-08-14 09:10:49,256 - INFO - Final report file exists at transaction_processor/output/Final_Expense_Report_20240814_091049.md
+2024-08-14 09:10:49,256 - INFO - Script execution completed.
+2024-08-14 09:10:49,256 - INFO - Contents of output directory: ['Final_Expense_Report_20240814_090719.md', 'Final_Expense_Report_20240814_091049.md', 'Employer2_expense_report.md', 'Employer1_expense_report.md']
+2024-08-14 09:21:27,434 - INFO - Output directory created/verified: transaction_processor/output
+2024-08-14 09:21:27,434 - INFO - Merged DataFrame shape: (2, 10)
+2024-08-14 09:21:27,434 - INFO - Merged DataFrame columns: Index(['date', 'time', 'vendor', 'amount', 'currency', 'bank', 'card_no',
+       'employer', 'category', 'note'],
+      dtype='object')
+2024-08-14 09:21:27,434 - INFO - Generating expense reports...
+2024-08-14 09:21:27,436 - INFO - Expense reports content: # Expense Report
+
+Period: 2023-01-01 to 2023-12-31
+
+## Employer1 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:21:27.434326 | N/A | -100.00 | Employee Development | Note1 |
+
+Total: $-100.00
+
+## Employer2 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:21:27.434328 | N/A | -200.00 | Office Supplies | Note2 |
+
+Total: $-200.00
+
+
+2024-08-14 09:21:27,440 - INFO - Final report written to: transaction_processor/output/Final_Expense_Report_20240814_092127.md
+2024-08-14 09:21:27,440 - INFO - Final report file exists at transaction_processor/output/Final_Expense_Report_20240814_092127.md
+2024-08-14 09:21:27,440 - INFO - Script execution completed.
+2024-08-14 09:21:27,440 - INFO - Contents of output directory: ['Final_Expense_Report_20240814_090719.md', 'Final_Expense_Report_20240814_091049.md', 'Final_Expense_Report_20240814_092127.md', 'Employer2_expense_report.md', 'Employer1_expense_report.md']
+2024-08-14 09:26:12,638 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 09:26:12,638 - INFO - Merged DataFrame shape: (2, 10)
+2024-08-14 09:26:12,639 - INFO - Merged DataFrame columns: Index(['date', 'time', 'vendor', 'amount', 'currency', 'bank', 'card_no',
+       'employer', 'category', 'note'],
+      dtype='object')
+2024-08-14 09:26:12,639 - INFO - Generating expense reports...
+2024-08-14 09:26:12,640 - INFO - Expense reports content: # Expense Report
+
+Period: 2023-01-01 to 2023-12-31
+
+## Employer1 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:26:12.638428 | N/A | -100.00 | Employee Development | Note1 |
+
+Total: $-100.00
+
+## Employer2 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:26:12.638429 | N/A | -200.00 | Office Supplies | Note2 |
+
+Total: $-200.00
+
+
+2024-08-14 09:26:13,346 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_092613.md
+2024-08-14 09:26:13,346 - INFO - Final report file exists at /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_092613.md
+2024-08-14 09:26:13,686 - INFO - Script execution completed.
+2024-08-14 09:26:13,686 - INFO - Contents of output directory: ['Final_Expense_Report_20240814_092613.md', '.DS_Store', 'Employer2_expense_report.md', 'Employer1_expense_report.md']
+2024-08-14 09:30:35,063 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 09:30:35,065 - INFO - Merged DataFrame shape: (2, 10)
+2024-08-14 09:30:35,065 - INFO - Merged DataFrame columns: Index(['date', 'time', 'vendor', 'amount', 'currency', 'bank', 'card_no',
+       'employer', 'category', 'note'],
+      dtype='object')
+2024-08-14 09:30:35,065 - INFO - Generating expense reports...
+2024-08-14 09:30:35,068 - INFO - Expense reports content: # Expense Report
+
+Period: 2023-01-01 to 2023-12-31
+
+## Employer1 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:30:35.064014 | N/A | -100.00 | Employee Development | Note1 |
+
+Total: $-100.00
+
+## Employer2 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:30:35.064015 | N/A | -200.00 | Office Supplies | Note2 |
+
+Total: $-200.00
+
+
+2024-08-14 09:30:35,595 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_093035.md
+2024-08-14 09:30:35,595 - INFO - Final report file exists at /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_093035.md
+2024-08-14 09:30:35,923 - INFO - Script execution completed.
+2024-08-14 09:30:35,923 - INFO - Contents of output directory: ['Final_Expense_Report_20240814_092613.md', '.DS_Store', 'Employer2_expense_report.md', 'Final_Expense_Report_20240814_093035.md', 'Employer1_expense_report.md']
+2024-08-14 09:31:25,680 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 09:31:25,680 - INFO - Merged DataFrame shape: (2, 10)
+2024-08-14 09:31:25,680 - INFO - Merged DataFrame columns: Index(['date', 'time', 'vendor', 'amount', 'currency', 'bank', 'card_no',
+       'employer', 'category', 'note'],
+      dtype='object')
+2024-08-14 09:31:25,680 - INFO - Generating expense reports...
+2024-08-14 09:31:25,682 - INFO - Expense reports content: # Expense Report
+
+Period: 2023-01-01 to 2023-12-31
+
+## Employer1 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:31:25.680245 | N/A | -100.00 | Employee Development | Note1 |
+
+Total: $-100.00
+
+## Employer2 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:31:25.680246 | N/A | -200.00 | Office Supplies | Note2 |
+
+Total: $-200.00
+
+
+2024-08-14 09:31:25,995 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_093125.md
+2024-08-14 09:31:25,995 - INFO - Final report file exists at /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_093125.md
+2024-08-14 09:31:26,338 - INFO - Script execution completed.
+2024-08-14 09:31:26,338 - INFO - Contents of output directory: ['Final_Expense_Report_20240814_092613.md', '.DS_Store', 'Employer2_expense_report.md', 'Final_Expense_Report_20240814_093035.md', 'Employer1_expense_report.md', 'Final_Expense_Report_20240814_093125.md']
+2024-08-14 09:36:28,435 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 09:36:28,437 - INFO - Merged DataFrame shape: (2, 10)
+2024-08-14 09:36:28,437 - INFO - Merged DataFrame columns: Index(['date', 'time', 'vendor', 'amount', 'currency', 'bank', 'card_no',
+       'employer', 'category', 'note'],
+      dtype='object')
+2024-08-14 09:36:28,437 - INFO - Generating expense reports...
+2024-08-14 09:36:28,440 - INFO - Expense reports content: # Expense Report
+
+Period: 2023-01-01 to 2023-12-31
+
+## Employer1 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:36:28.435790 | N/A | -100.00 | Employee Development | Note1 |
+
+Total: $-100.00
+
+## Employer2 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:36:28.435792 | N/A | -200.00 | Office Supplies | Note2 |
+
+Total: $-200.00
+
+
+2024-08-14 09:36:28,964 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_093628.md
+2024-08-14 09:36:28,964 - INFO - Final report file exists at /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_093628.md
+2024-08-14 09:36:29,298 - INFO - Script execution completed.
+2024-08-14 09:36:29,300 - INFO - Contents of output directory: ['Final_Expense_Report_20240814_092613.md', 'Final_Expense_Report_20240814_093628.md', '.DS_Store', 'Employer2_expense_report.md', 'Final_Expense_Report_20240814_093035.md', 'Employer1_expense_report.md', 'Final_Expense_Report_20240814_093125.md']
+2024-08-14 09:42:41,729 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 09:42:41,730 - INFO - Merged DataFrame shape: (2, 10)
+2024-08-14 09:42:41,730 - INFO - Merged DataFrame columns: Index(['date', 'time', 'vendor', 'amount', 'currency', 'bank', 'card_no',
+       'employer', 'category', 'note'],
+      dtype='object')
+2024-08-14 09:42:41,730 - INFO - Generating expense reports...
+2024-08-14 09:42:41,732 - INFO - Expense reports content: # Expense Report
+
+Period: 2023-01-01 to 2023-12-31
+
+## Employer1 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:42:41.729665 | N/A | -100.00 | Employee Development | Note1 |
+
+Total: $-100.00
+
+## Employer2 Expenses
+
+| Date | Description | Amount | Category | Note |
+|------|-------------|--------|----------|------|
+| 2024-08-14 09:42:41.729666 | N/A | -200.00 | Office Supplies | Note2 |
+
+Total: $-200.00
+
+
+2024-08-14 09:42:41,742 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_094241.md
+2024-08-14 09:42:41,742 - INFO - Final report file exists at /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_094241.md
+2024-08-14 09:42:41,747 - INFO - Script execution completed.
+2024-08-14 09:42:41,748 - INFO - Contents of output directory: ['Final_Expense_Report_20240814_092613.md', 'Final_Expense_Report_20240814_093628.md', '.DS_Store', 'Final_Expense_Report_20240814_094241.md', 'Employer2_expense_report.md', 'Final_Expense_Report_20240814_093035.md', 'Employer1_expense_report.md', 'Final_Expense_Report_20240814_093125.md']
+2024-08-14 09:52:23,595 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 09:52:23,600 - INFO - Expense report for Employer1 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer1_expense_report.md
+2024-08-14 09:52:23,601 - INFO - Expense report for Employer2 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer2_expense_report.md
+2024-08-14 09:52:23,601 - INFO - Expense reports generated
+2024-08-14 09:52:23,611 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_095223.md
+2024-08-14 09:52:23,616 - INFO - Report generation completed.
+2024-08-14 09:57:51,620 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 09:57:51,624 - INFO - Expense report for Employer1 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer1_expense_report.md
+2024-08-14 09:57:51,625 - INFO - Expense report for Employer2 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer2_expense_report.md
+2024-08-14 09:57:51,625 - INFO - Expense reports generated
+2024-08-14 09:57:51,630 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_095751.md
+2024-08-14 09:57:51,630 - INFO - Report generation completed.
+2024-08-14 09:58:55,159 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 09:58:55,161 - INFO - Expense report for Employer1 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer1_expense_report.md
+2024-08-14 09:58:55,161 - INFO - Expense report for Employer2 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer2_expense_report.md
+2024-08-14 09:58:55,162 - INFO - Expense reports generated
+2024-08-14 09:58:55,166 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_095855.md
+2024-08-14 09:58:55,166 - INFO - Report generation completed.
+2024-08-14 10:13:45,981 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 10:13:45,983 - INFO - Expense report for Employer1 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer1_expense_report.md
+2024-08-14 10:13:45,984 - INFO - Expense report for Employer2 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer2_expense_report.md
+2024-08-14 10:13:45,984 - INFO - Expense reports generated
+2024-08-14 10:13:45,989 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_101345.md
+2024-08-14 10:13:45,989 - INFO - Report generation completed.
+2024-08-14 10:24:08,710 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 10:24:08,718 - INFO - Expense report for Employer1 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer1_expense_report.md
+2024-08-14 10:24:08,719 - INFO - Expense report for Employer2 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer2_expense_report.md
+2024-08-14 10:24:08,719 - INFO - Expense reports generated
+2024-08-14 10:24:08,722 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_102408.md
+2024-08-14 10:24:08,722 - INFO - Report generation completed.
+2024-08-14 10:38:45,799 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 10:38:45,799 - ERROR - An error occurred: 'ExpenseReportGenerator' object has no attribute 'analyze_bank_files'
+Traceback (most recent call last):
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 169, in generate_final_report
+    self.analyze_bank_files()  # Analyze bank files before processing
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExpenseReportGenerator' object has no attribute 'analyze_bank_files'
+2024-08-14 10:38:45,800 - INFO - Report generation completed.
+2024-08-14 10:41:05,857 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 10:41:05,866 - INFO - Expense report for Employer1 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer1_expense_report.md
+2024-08-14 10:41:05,867 - INFO - Expense report for Employer2 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer2_expense_report.md
+2024-08-14 10:41:05,867 - INFO - Expense reports generated
+2024-08-14 10:41:05,867 - ERROR - An error occurred: 'ExpenseReportGenerator' object has no attribute 'read_project_description'
+Traceback (most recent call last):
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 182, in generate_final_report
+    final_report = self._create_final_report_content(timestamp, merged_df, expense_reports)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 217, in _create_final_report_content
+    project_description = self.read_project_description()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExpenseReportGenerator' object has no attribute 'read_project_description'
+2024-08-14 10:41:05,868 - INFO - Report generation completed.
+2024-08-14 10:42:08,513 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 10:42:08,514 - INFO - Expense report for Employer1 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer1_expense_report.md
+2024-08-14 10:42:08,515 - INFO - Expense report for Employer2 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer2_expense_report.md
+2024-08-14 10:42:08,515 - INFO - Expense reports generated
+2024-08-14 10:42:08,515 - ERROR - Error reading project description: [Errno 2] No such file or directory: '/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/project_description.txt'
+2024-08-14 10:42:08,521 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_104208.md
+2024-08-14 10:42:08,522 - INFO - Report generation completed.
+2024-08-14 10:47:38,534 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 10:47:38,539 - INFO - Expense report for Employer1 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer1_expense_report.md
+2024-08-14 10:47:38,539 - INFO - Expense report for Employer2 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer2_expense_report.md
+2024-08-14 10:47:38,539 - INFO - Expense reports generated
+2024-08-14 10:47:38,546 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_104738.md
+2024-08-14 10:47:38,546 - INFO - Report generation completed.
+2024-08-14 10:48:08,271 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 10:48:08,278 - INFO - Expense report for Employer1 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer1_expense_report.md
+2024-08-14 10:48:08,278 - INFO - Expense report for Employer2 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer2_expense_report.md
+2024-08-14 10:48:08,278 - INFO - Expense reports generated
+2024-08-14 10:48:08,284 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_104808.md
+2024-08-14 10:48:08,284 - INFO - Report generation completed.
+2024-08-14 10:48:38,631 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 10:48:38,633 - INFO - Expense report for Employer1 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer1_expense_report.md
+2024-08-14 10:48:38,633 - INFO - Expense report for Employer2 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer2_expense_report.md
+2024-08-14 10:48:38,633 - INFO - Expense reports generated
+2024-08-14 10:48:38,638 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_104838.md
+2024-08-14 10:48:38,638 - INFO - Report generation completed.
+2024-08-14 10:51:21,367 - INFO - Output directory created/verified: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output
+2024-08-14 10:51:21,371 - INFO - Expense report for Employer1 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer1_expense_report.md
+2024-08-14 10:51:21,372 - INFO - Expense report for Employer2 saved to /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Employer2_expense_report.md
+2024-08-14 10:51:21,372 - INFO - Expense reports generated
+2024-08-14 10:51:21,378 - INFO - Final report written to: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/Output/Final_Expense_Report_20240814_105121.md
+2024-08-14 10:51:21,378 - INFO - Report generation completed.
+2024-08-14 11:01:42,381 - INFO - Output directory created/verified: output
+2024-08-14 11:01:42,384 - INFO - No transactions found for Frequency Research Foundation
+2024-08-14 11:01:42,385 - INFO - No transactions found for JVS Management
+2024-08-14 11:01:42,385 - INFO - No transactions found for Scrum Inc
+2024-08-14 11:01:42,385 - INFO - No transactions found for Donation
+2024-08-14 11:01:42,385 - INFO - No transactions found for Personal
+2024-08-14 11:01:42,385 - INFO - No transactions found for Unknown
+2024-08-14 11:01:42,385 - WARNING - No transactions found for any employer.
+2024-08-14 11:01:42,385 - INFO - Expense reports generated
+2024-08-14 11:01:42,385 - ERROR - Error reading project description: [Errno 2] No such file or directory: '/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/project_description.txt'
+2024-08-14 11:01:42,392 - INFO - Final report written to: output/Final_Expense_Report_20240814_110142.md
+2024-08-14 11:01:42,392 - INFO - Report generation completed.
+2024-08-14 14:08:26,764 - INFO - Output directory created/verified: output
+2024-08-14 14:08:26,767 - INFO - No transactions found for Frequency Research Foundation
+2024-08-14 14:08:26,767 - INFO - No transactions found for JVS Management
+2024-08-14 14:08:26,767 - INFO - No transactions found for Scrum Inc
+2024-08-14 14:08:26,767 - INFO - No transactions found for Donation
+2024-08-14 14:08:26,767 - INFO - No transactions found for Personal
+2024-08-14 14:08:26,768 - INFO - No transactions found for Unknown
+2024-08-14 14:08:26,768 - WARNING - No transactions found for any employer.
+2024-08-14 14:08:26,768 - INFO - Expense reports generated
+2024-08-14 14:08:26,768 - ERROR - Error reading project description: [Errno 2] No such file or directory: '/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/project_description.txt'
+2024-08-14 14:08:26,772 - INFO - Final report written to: output/Final_Expense_Report_20240814_140826.md
+2024-08-14 14:08:26,772 - INFO - Report generation completed.
+2024-08-14 14:19:25,624 - INFO - Output directory created/verified: output
+2024-08-14 14:19:25,628 - ERROR - An error occurred: 'Date'
+Traceback (most recent call last):
+  File "/Users/jeffsutherland/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 261, in generate_final_report
+    intermediate_files = self.process_bank_files(start_date, end_date)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 148, in process_bank_files
+    df['Date'] = pd.to_datetime(df['Date'])  # Assume 'Date' column exists, adjust if needed
+                                ~~^^^^^^^^
+  File "/Users/jeffsutherland/.venv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeffsutherland/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2024-08-14 14:19:25,656 - INFO - Report generation completed.
+2024-08-14 14:29:05,073 - INFO - Output directory created/verified: output
+2024-08-14 14:29:05,073 - ERROR - An error occurred: 'ExpenseReportGenerator' object has no attribute 'process_bank_files'
+Traceback (most recent call last):
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 62, in generate_final_report
+    intermediate_files = self.process_bank_files(start_date, end_date)
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExpenseReportGenerator' object has no attribute 'process_bank_files'
+2024-08-14 14:29:05,074 - INFO - Report generation completed.
+2024-08-14 14:33:16,064 - INFO - Output directory created/verified: output
+2024-08-14 14:33:16,064 - ERROR - An error occurred: 'ExpenseReportGenerator' object has no attribute 'track_file_usage'
+Traceback (most recent call last):
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 57, in generate_final_report
+    self.analyze_bank_files()
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 105, in analyze_bank_files
+    self.track_file_usage(file_path)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExpenseReportGenerator' object has no attribute 'track_file_usage'
+2024-08-14 14:33:16,065 - INFO - Report generation completed.
+2024-08-14 14:37:17,699 - INFO - Output directory created/verified: output
+2024-08-14 14:37:17,705 - ERROR - An error occurred: 'dict' object has no attribute 'lower'
+Traceback (most recent call last):
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 64, in generate_final_report
+    intermediate_files = self.process_bank_files(start_date, end_date)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 136, in process_bank_files
+    self.populate_employer_column(df)
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 169, in populate_employer_column
+    if any(rule.lower() in str(row[description_column]).lower() for rule in rules):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 169, in <genexpr>
+    if any(rule.lower() in str(row[description_column]).lower() for rule in rules):
+           ^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'lower'
+2024-08-14 14:37:17,706 - INFO - Report generation completed.
+2024-08-14 14:41:19,961 - INFO - Output directory created/verified: output
+2024-08-14 14:41:19,961 - ERROR - An error occurred: 'ExpenseReportGenerator' object has no attribute 'process_bank_files'
+Traceback (most recent call last):
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 64, in generate_final_report
+    intermediate_files = self.process_bank_files(start_date, end_date)
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExpenseReportGenerator' object has no attribute 'process_bank_files'
+2024-08-14 14:41:19,962 - INFO - Report generation completed.
+2024-08-14 14:47:57,506 - INFO - Output directory created/verified: output
+2024-08-14 14:47:57,511 - INFO - Employer column populated for 3 rows.
+2024-08-14 14:47:57,520 - INFO - Employer column populated for 5 rows.
+2024-08-14 14:47:57,523 - WARNING - No description column found. Unable to populate employer column.
+2024-08-14 14:47:57,525 - INFO - Employer column populated for 5 rows.
+2024-08-14 14:47:57,536 - INFO - No transactions found for Frequency Research Foundation
+2024-08-14 14:47:57,536 - INFO - No transactions found for JVS Management
+2024-08-14 14:47:57,537 - INFO - No transactions found for Scrum Inc
+2024-08-14 14:47:57,537 - INFO - No transactions found for Donation
+2024-08-14 14:47:57,537 - INFO - No transactions found for Personal
+2024-08-14 14:47:57,537 - INFO - Expense report for Unknown saved to output/Unknown_expense_report.md
+2024-08-14 14:47:57,537 - INFO - Expense reports generated
+2024-08-14 14:47:57,538 - WARNING - Multiple potential project description files found: ['/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/project_description.md', '/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/readme.md']
+2024-08-14 14:47:57,538 - WARNING - Using the first one: /Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/project_description.md
+2024-08-14 14:47:57,545 - INFO - Final report written to: output/Final_Expense_Report_20240814_144757.md
+2024-08-14 14:47:57,550 - INFO - Report generation completed.
+2024-08-14 14:55:10,280 - INFO - Output directory created/verified: output
+2024-08-14 14:55:10,281 - ERROR - An error occurred: 'ExpenseReportGenerator' object has no attribute 'process_bank_files'
+Traceback (most recent call last):
+  File "/Users/jeffsutherland/Frequency Research Foundation Inc. Dropbox/Frequency Lab/Python/Expenses/chatGPT4o scripts/transaction_processor/main.py", line 71, in generate_final_report
+    intermediate_files = self.process_bank_files(start_date, end_date)
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExpenseReportGenerator' object has no attribute 'process_bank_files'
+2024-08-14 14:55:10,281 - INFO - Report generation completed.

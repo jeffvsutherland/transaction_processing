@@ -1,0 +1,23 @@
+# .gitignore
+
+gi
+transaction_processor.egg-info/
+# Python-specific
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Project-specific
+input/
+output/
+*.csv
+*.log

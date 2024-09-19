@@ -1,0 +1,1191 @@
+{
+    "input_dir": "input",
+    "output_dir": "output",
+    "submitter_name": "Jeff Sutherland",
+    "employers": [
+        "Frequency Research Foundation",
+        "JVS Management",
+        "Scrum Inc",
+        "Donation",
+        "Personal",
+        "Unknown"
+    ],
+    "default_employer": "Unknown",
+    "reimbursement_info": {
+        "receiving_bank": "Hingham Institution for Savings",
+        "receiving_bank_aba": "211370370",
+        "bank_address": "55 Main Street, Hingham MA 02043",
+        "beneficiary_account_name": "JEFFREY VICTOR SUTHERLAND",
+        "beneficiary_account_number": "26119467",
+        "account_type": "Checking"
+    },
+    "employer_rules": [
+        {
+            "description_contains": "Refund",
+            "employer": "Personal",
+            "category": "Refund",
+            "note": "Automatic refund categorization"
+        },
+        {
+            "description_contains": "Comcast",
+            "employer": "JVS Management",
+            "category": "Internet",
+            "note": "Comcast"
+        },
+        {
+            "description_contains": "Apple",
+            "employer": "Scrum Inc",
+            "category": "Software",
+            "note": "Apple transaction"
+        },
+        {
+            "description_contains": "giorgio's",
+            "employer": "Personal",
+            "category": "Drinks",
+            "note": ""
+        },
+        {
+            "description_contains": "drizly",
+            "employer": "Personal",
+            "category": "Drinks",
+            "note": ""
+        },
+        {
+            "description_contains": "uber eats",
+            "employer": "Personal",
+            "category": "Food",
+            "note": ""
+        },
+        {
+            "description_contains": "ghowellcoffee",
+            "employer": "JVS Management",
+            "category": "Office Supplies",
+            "note": ""
+        },
+        {
+            "description_contains": "georgio",
+            "employer": "Personal",
+            "category": "Drinks",
+            "note": ""
+        },
+        {
+            "description_contains": "eats",
+            "employer": "Personal",
+            "category": "Food",
+            "note": ""
+        },
+        {
+            "description_contains": "usps.com clicknship",
+            "employer": "Frequency Research Foundation",
+            "category": "Postage",
+            "note": ""
+        },
+        {
+            "description_contains": "blue bottle",
+            "employer": "JVS Management",
+            "category": "Office Supplies",
+            "note": ""
+        },
+        {
+            "description_contains": "amzn mktp",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Amzn Mktp"
+        },
+        {
+            "description_contains": "spark",
+            "employer": "Scrum Inc",
+            "category": "Software",
+            "note": "Email app"
+        },
+        {
+            "description_contains": "wunder",
+            "employer": "Personal",
+            "category": "Investment",
+            "note": ""
+        },
+        {
+            "description_contains": "noom",
+            "employer": "Personal",
+            "category": "Clothes",
+            "note": ""
+        },
+        {
+            "description_contains": "amazon prime",
+            "employer": "Personal",
+            "category": "Entertainment",
+            "note": "Streaming"
+        },
+        {
+            "description_contains": "amazon tips",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Tips"
+        },
+        {
+            "description_contains": "hulu",
+            "employer": "Personal",
+            "category": "Entertainment",
+            "note": ""
+        },
+        {
+            "description_contains": "nytimes",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "aa rental center",
+            "employer": "Personal",
+            "category": "Party",
+            "note": "Rental"
+        },
+        {
+            "description_contains": "expensify",
+            "employer": "JVS Management",
+            "category": "Fees",
+            "note": ""
+        },
+        {
+            "description_contains": "kindle svcs",
+            "employer": "PendingReview",
+            "category": "Employee Development",
+            "note": "Kindle transaction needs review"
+        },
+        {
+            "description_contains": "bulletproof",
+            "employer": "Personal",
+            "category": "Food",
+            "note": ""
+        },
+        {
+            "description_contains": "spooky2",
+            "employer": "Frequency Research Foundation",
+            "category": "Hardware",
+            "note": ""
+        },
+        {
+            "description_contains": "prime video",
+            "employer": "Personal",
+            "category": "Entertainment",
+            "note": ""
+        },
+        {
+            "description_contains": "llbean",
+            "employer": "Personal",
+            "category": "Clothes",
+            "note": ""
+        },
+        {
+            "description_contains": "wsjwine",
+            "employer": "Personal",
+            "category": "Drinks",
+            "note": ""
+        },
+        {
+            "description_contains": "audible",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "intuit",
+            "employer": "JVS Management",
+            "category": "Fees",
+            "note": ""
+        },
+        {
+            "description_contains": "wgbh",
+            "employer": "Donation",
+            "category": "Donation",
+            "note": ""
+        },
+        {
+            "description_contains": "worldcentralkitch",
+            "employer": "Donation",
+            "category": "Food bank",
+            "note": ""
+        },
+        {
+            "description_contains": "atlassian",
+            "employer": "JVS Management",
+            "category": "Fees",
+            "note": ""
+        },
+        {
+            "description_contains": "hbo",
+            "employer": "Personal",
+            "category": "Entertainment",
+            "note": ""
+        },
+        {
+            "description_contains": "urbanout",
+            "employer": "Personal",
+            "category": "Clothes",
+            "note": ""
+        },
+        {
+            "description_contains": "ieee",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": "IEEE Digital Library"
+        },
+        {
+            "description_contains": "somerville parkin",
+            "employer": "Personal",
+            "category": "Parking",
+            "note": ""
+        },
+        {
+            "description_contains": "global healing",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies",
+            "note": ""
+        },
+        {
+            "description_contains": "elevator service",
+            "employer": "Personal",
+            "category": "Maintenance",
+            "note": ""
+        },
+        {
+            "description_contains": "formosa taipei",
+            "employer": "Personal",
+            "category": "Food",
+            "note": ""
+        },
+        {
+            "description_contains": "benjaminfulford",
+            "employer": "JVS Management",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "shopc60",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies",
+            "note": ""
+        },
+        {
+            "description_contains": "netgear",
+            "employer": "Frequency Research Foundation",
+            "category": "Hardware",
+            "note": ""
+        },
+        {
+            "description_contains": "longevity research",
+            "employer": "Frequency Research Foundation",
+            "category": "Hardware",
+            "note": ""
+        },
+        {
+            "description_contains": "kirsch substack",
+            "employer": "JVS Management",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "iie academy",
+            "employer": "JVS Management",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "Paramount+",
+            "employer": "Personal",
+            "category": "Entertainment",
+            "note": ""
+        },
+        {
+            "description_contains": "hrlandclarkecheck",
+            "employer": "JVS Management",
+            "category": "Fees",
+            "note": "Checks"
+        },
+        {
+            "description_contains": "kindle unltd",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "community farms",
+            "employer": "Personal",
+            "category": "Food",
+            "note": ""
+        },
+        {
+            "description_contains": "oxford healthspan",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies",
+            "note": ""
+        },
+        {
+            "description_contains": "steamers seafood",
+            "employer": "Personal",
+            "category": "Food",
+            "note": ""
+        },
+        {
+            "description_contains": "frontgate",
+            "employer": "Personal",
+            "category": "Furniture",
+            "note": ""
+        },
+        {
+            "description_contains": "iherb",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies",
+            "note": ""
+        },
+        {
+            "description_contains": "avg tech",
+            "employer": "Frequency Research Foundation",
+            "category": "Software",
+            "note": ""
+        },
+        {
+            "description_contains": "kickstarter",
+            "employer": "Personal",
+            "category": "Kickstarter",
+            "note": ""
+        },
+        {
+            "description_contains": "levels",
+            "employer": "Frequency Research Foundation",
+            "category": "Monitoring",
+            "note": ""
+        },
+        {
+            "description_contains": "nespresso",
+            "employer": "JVS Management",
+            "category": "Office Supplies",
+            "note": ""
+        },
+        {
+            "description_contains": "hakata ramen",
+            "employer": "Personal",
+            "category": "Food",
+            "note": ""
+        },
+        {
+            "description_contains": "harvard business serv",
+            "employer": "Frequency Research Foundation",
+            "category": "Fees",
+            "note": "Delaware corp registration"
+        },
+        {
+            "description_contains": "btc",
+            "employer": "Personal",
+            "category": "Currency",
+            "note": ""
+        },
+        {
+            "description_contains": "ki science",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies",
+            "note": ""
+        },
+        {
+            "description_contains": "kareo",
+            "employer": "Frequency Research Foundation",
+            "category": "Medical records",
+            "note": ""
+        },
+        {
+            "description_contains": "space exploration tech",
+            "employer": "JVS Management",
+            "category": "Internet",
+            "note": ""
+        },
+        {
+            "description_contains": "tesla",
+            "employer": "Personal",
+            "category": "Fees",
+            "note": ""
+        },
+        {
+            "description_contains": "tech smith",
+            "employer": "JVS Management",
+            "category": "Software",
+            "note": ""
+        },
+        {
+            "description_contains": "ny times",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "homeadvisor",
+            "employer": "Personal",
+            "category": "Fees",
+            "note": ""
+        },
+        {
+            "description_contains": "iie academy",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": "IEEE publications"
+        },
+        {
+            "description_contains": "harlandclarkecheck",
+            "employer": "JVS Management",
+            "category": "Fees",
+            "note": "Bank checks"
+        },
+        {
+            "description_contains": "oxford healthspan",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies",
+            "note": "Test supplement"
+        },
+        {
+            "description_contains": "urban outfitters",
+            "employer": "Personal",
+            "category": "Arline",
+            "note": ""
+        },
+        {
+            "description_contains": "Amazon.Com*H00 Jf2 Ym0",
+            "employer": "Frequency Research Foundation",
+            "category": "Hardware",
+            "note": "Netgear router"
+        },
+        {
+            "description_contains": "Grossman",
+            "employer": "Frequency Research Foundation",
+            "category": "Research",
+            "note": "Grossman transaction"
+        },
+        {
+            "description_contains": "Orifice Waste Recycling",
+            "employer": "Personal",
+            "category": "Recycling",
+            "note": "Waste recycling service"
+        },
+        {
+            "description_contains": "Patreon",
+            "employer": "JVS Management",
+            "category": "Employee Development",
+            "note": "Patreon subscription"
+        },
+        {
+            "description_contains": "USD -> USD",
+            "employer": "Per",
+            "category": "Funds transfer"
+        },
+        {
+            "description_contains": "Pnt*Simons Coffee Shop",
+            "employer": "Personal",
+            "category": "Food"
+        },
+        {
+            "description_contains": "City Of Cambridge",
+            "employer": "Personal",
+            "category": "Parking"
+        },
+        {
+            "description_contains": "Nuts.Com, Inc.",
+            "employer": "Personal",
+            "category": "Food"
+        },
+        {
+            "description_contains": "Linode . Akamai",
+            "employer": "Frequency Research Foundation",
+            "category": "Internet",
+            "note": "Internet Service Provider"
+        },
+        {
+            "description_contains": "Amazon.com*H07XN5ZU2",
+            "employer": "Personal",
+            "category": "Arline"
+        },
+        {
+            "description_contains": "AUTOMATIC PAYMENT - THANK",
+            "employer": "Personal",
+            "category": "Autopay"
+        },
+        {
+            "description_contains": "Atlantic I & F Inc.",
+            "employer": "Frequency Research Foundation",
+            "category": "Maintenance",
+            "note": "Remote lab"
+        },
+        {
+            "description_contains": "Interest Earned",
+            "employer": "Personal",
+            "category": "Interest",
+            "note": "Interest earned"
+        },
+        {
+            "description_contains": "NATIONAL GRID",
+            "employer": "Frequency Research Foundation",
+            "category": "Utilities",
+            "note": "Remote lab"
+        },
+        {
+            "description_contains": "ADT SECURITY SERVICES",
+            "employer": "JVS Management",
+            "category": "Security",
+            "note": "ADT security services"
+        },
+        {
+            "description_contains": "E-ZPass MA",
+            "employer": "Personal",
+            "category": "Travel",
+            "note": "E-ZPass toll payment"
+        },
+        {
+            "description_contains": "Alison Wahn",
+            "employer": "Personal",
+            "category": "Dog Care",
+            "note": "Dog care services"
+        },
+        {
+            "description_contains": "Amazon.com*1K8Z17YZ0",
+            "employer": "Personal",
+            "category": "Arline"
+        },
+        {
+            "description_contains": "Amazon.com*1445I2SX2",
+            "employer": "Personal",
+            "category": "Food"
+        },
+        {
+            "description_contains": "Anthony F. Vanaria III Bill Payment",
+            "employer": "Personal",
+            "category": "Lawn"
+        },
+        {
+            "description_contains": "BOSTON GLOBE SUBSCRPT",
+            "employer": "Scrum Inc",
+            "category": "Employee Development"
+        },
+        {
+            "description_contains": "THE EPOCH TIMES",
+            "employer": "Scrum Inc",
+            "category": "Employee Development"
+        },
+        {
+            "description_contains": "IN *GROVE STREET BROKERS",
+            "employer": "Personal",
+            "category": "Drinks"
+        },
+        {
+            "description_contains": "Natures Way Cleaners",
+            "employer": "Personal",
+            "category": "Dry cleaning"
+        },
+        {
+            "description_contains": "BE U NAILS AND SPA",
+            "employer": "Personal",
+            "category": "Arline"
+        },
+        {
+            "description_contains": "Scribd Inc",
+            "employer": "Scrum Inc",
+            "category": "Software"
+        },
+        {
+            "description_contains": "FARON SALON INC",
+            "employer": "Personal",
+            "category": "Haircut"
+        },
+        {
+            "description_contains": "CAPITAL ONE AUTOPAY PYMT",
+            "employer": "Personal",
+            "category": "Autopay"
+        },
+        {
+            "description_contains": "ANC*ANCESTRY.COM",
+            "employer": "Personal",
+            "category": "Ancestry"
+        },
+        {
+            "description_contains": "AURA.COM",
+            "employer": "JVS Management",
+            "category": "Security"
+        },
+        {
+            "description_contains": "J2  EFAX SERVICES",
+            "employer": "Scrum Inc",
+            "category": "Fax"
+        },
+        {
+            "description_contains": "4LR*4LIFERESEARCHLC",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies"
+        },
+        {
+            "description_contains": "DOORDASH DASHPASS",
+            "employer": "Personal",
+            "category": "Food"
+        },
+        {
+            "description_contains": "SOMERVILLEMA PARKTICKET",
+            "employer": "Personal",
+            "category": "Parking"
+        },
+        {
+            "description_contains": "PANDORA*INTERNET RADIO",
+            "employer": "Personal",
+            "category": "Entertainment"
+        },
+        {
+            "description_contains": "Trupanion",
+            "employer": "Personal",
+            "category": "Dog Care"
+        },
+        {
+            "description_contains": "SQ *22 MILL STREET CONDO",
+            "employer": "Personal",
+            "category": "Parking"
+        },
+        {
+            "description_contains": "GROTON MEDICAL WELLNESS",
+            "employer": "Personal",
+            "category": "Healthcare"
+        },
+        {
+            "description_contains": "DisneyPLUS",
+            "employer": "Personal",
+            "category": "Streaming"
+        },
+        {
+            "description_contains": "Amazon.Com*H827 E8 Yt0",
+            "employer": "Personal",
+            "category": "Arline",
+            "note": "Personal Amazon purchase"
+        },
+        {
+            "description_contains": "Amazon.Com*Ht6 A08 Td2",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies",
+            "note": "Test essential oil"
+        },
+        {
+            "description_contains": "Paypal *Massachuset",
+            "employer": "Personal",
+            "category": "Online Payment",
+            "note": "PayPal transaction"
+        },
+        {
+            "description_contains": "ANC*ANCESTRY.COM",
+            "employer": "Personal",
+            "category": "Subscription",
+            "note": "Ancestry.com subscription"
+        },
+        {
+            "description_contains": "4LR*4LIFERESEARCHLC",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies",
+            "note": "4Life Research purchase"
+        },
+        {
+            "description_contains": "PANDORA*INTERNET RADIO",
+            "employer": "Personal",
+            "category": "Entertainment",
+            "note": "Pandora subscription"
+        },
+        {
+            "description_contains": "IN *DOODY CALLS",
+            "employer": "Personal",
+            "category": "Dog Care",
+            "note": "Pet waste removal service"
+        },
+        {
+            "description_contains": "HELLOFRESH",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Meal kit delivery service"
+        },
+        {
+            "description_contains": "Amazon.Com",
+            "employer": "PendingReview",
+            "category": "Needs Review",
+            "note": "Amazon transaction needs review"
+        },
+        {
+            "description_contains": "Amazon.Com*145 En7532",
+            "employer": "Personal",
+            "category": "Healthcare",
+            "note": "Silicon scar sheets"
+        },
+        {
+            "description_contains": "Amazon.Com*147 T397 R0",
+            "employer": "Personal",
+            "category": "Healthcare",
+            "note": "XCLEAR nasal spray"
+        },
+        {
+            "description_contains": "Tidal 844 878 4325",
+            "employer": "Personal",
+            "category": "Entertainment"
+        },
+        {
+            "description_contains": "Amazon.com*H87IM5I31",
+            "employer": "Personal",
+            "category": "Arline"
+        },
+        {
+            "description_contains": "DES",
+            "employer": "Personal",
+            "category": "Disbursment"
+        },
+        {
+            "description_contains": "FUNDRISE",
+            "employer": "Personal",
+            "category": "Investment"
+        },
+        {
+            "description_contains": "ADT SECURITY",
+            "employer": "JVS Management",
+            "category": "Security"
+        },
+        {
+            "description_contains": "GOOGLE *FI",
+            "employer": "JVS Management",
+            "category": "Cellphone"
+        },
+        {
+            "description_contains": "CLKBANK*1 302 754 3446",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies",
+            "note": "Pro Dentim"
+        },
+        {
+            "description_contains": "life ext",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies"
+        },
+        {
+            "description_contains": "Donelan",
+            "employer": "Personal",
+            "category": "Food"
+        },
+        {
+            "description_contains": "Parkmobile",
+            "employer": "Personal",
+            "category": "Parking"
+        },
+        {
+            "description_contains": "Framework*",
+            "employer": "Frequency Research Foundation",
+            "category": "Hardware",
+            "note": "lab computer"
+        },
+        {
+            "description_contains": "Treana Winery",
+            "employer": "Personal",
+            "category": "Drinks"
+        },
+        {
+            "description_contains": "Readcube",
+            "employer": "Scrum Inc",
+            "category": "Software",
+            "note": "store research papers"
+        },
+        {
+            "description_contains": "Gilisoft",
+            "employer": "Scrum Inc",
+            "category": "Software",
+            "note": "imaging video"
+        },
+        {
+            "description_contains": "Florist",
+            "employer": "Personal",
+            "category": "Flowers"
+        },
+        {
+            "description_contains": "flowers",
+            "employer": "Personal",
+            "category": "Flowers"
+        },
+        {
+            "description_contains": "Groton Dental",
+            "employer": "Personal",
+            "category": "Dentist"
+        },
+        {
+            "description_contains": "Marcos Dam",
+            "employer": "Personal",
+            "category": "Cleaning"
+        },
+        {
+            "description_contains": "Wilson Farms",
+            "employer": "Personal",
+            "category": "Food"
+        },
+        {
+            "description_contains": "Lakrids",
+            "employer": "Personal",
+            "category": "Food"
+        },
+        {
+            "description_contains": "consumerreports",
+            "employer": "Personal",
+            "category": "Home"
+        },
+        {
+            "description_contains": "Razi",
+            "employer": "Personal",
+            "category": "Drinks"
+        },
+        {
+            "description_contains": "Wow home",
+            "employer": "Personal",
+            "category": "Home"
+        },
+        {
+            "description_contains": "Sue McGguire",
+            "employer": "Personal",
+            "category": "Cleaning"
+        },
+        {
+            "description_contains": "cash auto redem",
+            "employer": "Persoanl",
+            "category": "Banking"
+        },
+        {
+            "description_contains": "life4dream",
+            "employer": "Personal",
+            "category": "Arline"
+        },
+        {
+            "description_contains": "Starlink",
+            "employer": "JVS Management",
+            "category": "Internet"
+        },
+        {
+            "description_contains": "Sp Southern Baked",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Pie purchase"
+        },
+        {
+            "description_contains": "Google *Google Store",
+            "employer": "JVS Management",
+            "category": "Cellphone",
+            "note": "Google phone care"
+        },
+        {
+            "description_contains": "Google *You Tube Premium",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": "YouTube Premium subscription"
+        },
+        {
+            "description_contains": "Google *Google Storage",
+            "employer": "Scrum Inc",
+            "category": "Storage",
+            "note": "Google cloud storage"
+        },
+        {
+            "description_contains": "Pet Spa",
+            "employer": "Personal",
+            "category": "Dog Care",
+            "note": "Pet spa services"
+        },
+        {
+            "description_contains": "Paypal *Leanpub",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": "E-book or course purchase from Leanpub"
+        },
+        {
+            "description_contains": "Givebutter* Waltham Bo",
+            "employer": "Donation",
+            "category": "Food",
+            "note": "Food donation through Givebutter"
+        },
+        {
+            "description_contains": "Sp Somethingsweetwi",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Purchase from Something Sweet"
+        },
+        {
+            "description_contains": "Paddle.Net* Restoro",
+            "employer": "Frequency Research Foundation",
+            "category": "Software",
+            "note": "PC repair and optimization software"
+        },
+        {
+            "description_contains": "Walmart.Com",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Online grocery purchase (e.g., olive oil)"
+        },
+        {
+            "description_contains": "Modern Tech Sphere",
+            "employer": "JVS Management",
+            "category": "Fraud",
+            "note": "Fraudulent website transaction"
+        },
+        {
+            "description_contains": "Lexington Ma Parking Met",
+            "employer": "Personal",
+            "category": "Parking",
+            "note": "Parking meter charge in Lexington, MA"
+        },
+        {
+            "description_contains": "Paypal *G Team",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Greek olive oil purchase"
+        },
+        {
+            "description_contains": "Markys.Com",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Gourmet food purchase (e.g., caviar for New Year celebration)"
+        },
+        {
+            "description_contains": "Canva*",
+            "employer": "Frequency Research Foundation",
+            "category": "Software",
+            "note": "Graphic design platform subscription"
+        },
+        {
+            "description_contains": "Boxed Llc",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Bulk food purchase from Boxed"
+        },
+        {
+            "description_contains": "DEPOSIT",
+            "employer": "Personal",
+            "category": "Banking",
+            "note": "Bank deposit"
+        },
+        {
+            "description_contains": "BLUEMOUNTAIN*ECARDS",
+            "employer": "Personal",
+            "category": "Cards",
+            "note": "E-card purchase from Blue Mountain"
+        },
+        {
+            "description_contains": "SUPPORTPDFFILLER.COM",
+            "employer": "Scrum Inc",
+            "category": "Software",
+            "note": "PDF editing and management service subscription"
+        },
+        {
+            "description_contains": "SOMERVILLE FAMILY PRACTIC",
+            "employer": "Personal",
+            "category": "Medical",
+            "note": "Medical service at Somerville Family Practice"
+        },
+        {
+            "description_contains": "Kindle Svcs*",
+            "card": "7712",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": "Kindle book purchase for business use"
+        },
+        {
+            "description_contains": "Kindle Svcs*",
+            "card": "3785",
+            "employer": "Personal",
+            "category": "Arline",
+            "note": "Personal Kindle book purchase"
+        },
+        {
+            "description_contains": "Kindle Unltd*",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": "Kindle Unlimited subscription for business use"
+        },
+        {
+            "description_contains": "Amazon.Com*Hi6421 Qc2",
+            "employer": "Personal",
+            "category": "Arline",
+            "note": "Amazon purchase"
+        },
+        {
+            "description_contains": "Amazon.Com*Hw25385 A0",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies",
+            "note": "Amazon purchase for office supplies"
+        },
+        {
+            "description_contains": "Amazon.Com*Hw4746 Z00",
+            "employer": "Personal",
+            "category": "Arline",
+            "note": "Amazon purchase"
+        },
+        {
+            "description_contains": "Amazon.Com*H28 Rx33 P2",
+            "employer": "Personal",
+            "category": "Drinks",
+            "note": "Amazon purchase for drinks"
+        },
+        {
+            "description_contains": "Amazon.Com*H07 Yc8 Hi2",
+            "employer": "Personal",
+            "category": "Tools",
+            "note": "Amazon purchase for tools"
+        },
+        {
+            "description_contains": "Amazon.com*HW54N3LI1",
+            "employer": "Personal",
+            "category": "Arline",
+            "note": "Amazon purchase"
+        },
+        {
+            "description_contains": "Amazon.com*HI99B38O2",
+            "employer": "JVS Management",
+            "category": "Hardware",
+            "note": "Amazon purchase for keyboard"
+        },
+        {
+            "description_contains": "Amazon.com*HI3JJ2T81",
+            "employer": "Personal",
+            "category": "Arline",
+            "note": "Amazon purchase"
+        },
+        {
+            "description_contains": "Amazon.com*H20Q468L2",
+            "employer": "Personal",
+            "category": "Arline",
+            "note": "Amazon purchase"
+        },
+        {
+            "description_contains": "Kindle Svcs*Hi5 W87 Kh0",
+            "employer": "JVS Management",
+            "category": "Employee Development",
+            "note": "The Grid"
+        },
+        {
+            "description_contains": "Kindle Unltd",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": "Kindle Unlimited subscription for business use"
+        },
+        {
+            "description_contains": "Kindle Svcs*Hb6 Uj0 Mb2",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": "The Fifth Discipline"
+        },
+        {
+            "description_contains": "Kindle Svcs*Hi3907 Nb0",
+            "employer": "JVS Management",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "Kindle Svcs*Hb47 F3 Xn2",
+            "employer": "JVS Management",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "Kindle Svcs*Hi2943 Lt2",
+            "employer": "JVS Management",
+            "category": "Employee Development",
+            "note": "Nature's Best Hope"
+        },
+        {
+            "description_contains": "Kindle Svcs*Hb87 D3 Yk9",
+            "employer": "JVS Management",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "Kindle Svcs*Hi7 N9 Zl3",
+            "employer": "Scrum Inc",
+            "category": "Employee Development",
+            "note": "Flow"
+        },
+        {
+            "description_contains": "Kindle Svcs*Hb6 W5 Mv4",
+            "employer": "JVS Management",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "Kindle Svcs*Hi3 L8 Yp7",
+            "employer": "JVS Management",
+            "category": "Employee Development",
+            "note": ""
+        },
+        {
+            "description_contains": "Goldbelly",
+            "employer": "Personal",
+            "category": "Banking",
+            "note": "Goldbelly transaction"
+        },
+        {
+            "description_contains": "Cushing & Dolan",
+            "employer": "JVS Management",
+            "category": "Legal Fees",
+            "note": "Cushing & Dolan legal fees"
+        },
+        {
+            "description_contains": "Nfgamerican Environme",
+            "employer": "Donation",
+            "category": "Environment",
+            "note": "Environmental donation"
+        },
+        {
+            "description_contains": "Lavalier.Com",
+            "employer": "Personal",
+            "category": "Cosmetics",
+            "note": "Lavalier transaction"
+        },
+        {
+            "description_contains": "Chewy.Com",
+            "employer": "Personal",
+            "category": "Dog Care",
+            "note": "Chewy purchase"
+        },
+        {
+            "description_contains": "Evans Energy Wellness",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Evans Energy purchase"
+        },
+        {
+            "description_contains": "Paypal *Athleticgre",
+            "employer": "Frequency Research Foundation",
+            "category": "Office Supplies",
+            "note": "Athletic Greens purchase"
+        },
+        {
+            "description_contains": "Harrys",
+            "employer": "Personal",
+            "category": "Shaving",
+            "note": "Harrys shaving products"
+        },
+        {
+            "description_contains": "Clkbank*Alpilean",
+            "employer": "Frequency Research Foundation",
+            "category": "Card Processing",
+            "note": "Alpilean processing"
+        },
+        {
+            "description_contains": "Twisted Tree Cafe Li",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Twisted Tree Cafe"
+        },
+        {
+            "description_contains": "Flexibits Fantastical",
+            "employer": "Scrum Inc",
+            "category": "Software",
+            "note": "Flexibits software"
+        },
+        {
+            "description_contains": "Dandelion Chocola",
+            "employer": "Personal",
+            "category": "Food",
+            "note": "Dandelion Chocolate"
+        }
+    ],
+    "date_range": {
+        "start_date": "2022-12-01",
+        "end_date": "2022-12-31"
+    }
+}

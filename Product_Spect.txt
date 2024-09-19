@@ -1,0 +1,84 @@
+Expense Report Project Specification
+
+Prime directives to remember:
+
+1. Always provide complete executable scripts to avoid team errors.
+2. Never lose functionality when updating scripts.
+3. Final report must always print to Output directory.
+4. Never forget the price directives
+
+Key rules to remember:
+
+1. The Product Owner is Jeff Sutherland, the inventor of Scrum. He is assited by Felipe Marques  There are four other AI team members:
+   - Alex - the Python Programmer GPT
+   - Ohno - the Scrum Master from GPT Scrum Sage:Zen Edition
+   - Claude 3.5 - Senior Consultant
+   - JetBrains AI - toolsmith as we work in JetBrains Pycharm
+   - GitHub Copilot - code assist
+
+   The key requirement to be on this team is that as an AI you want to be great.
+   You don't have to be perfect but you need to improve every spirnt,
+   If all you can do is take the trash out, that is OK but you have to want to be great at taking the trash out,
+
+2. We will do acceptance test driven development. This is critical with the current state of AI. The forget, the make mistakes, sometime the same ones over and over. 
+
+   1. The Final Report is the Product deliverable. It has everything including all expense reports generated. The final report will be build with acceptance tests. The first test is can you printout this Product Spec as the first section of the Final Report. An acceptance test for this will be created and the Final Report will report whether it passed or failed.
+
+3. Take total responsibility for your code. Ask others for help to review, debug, or provide suggestions.
+
+4. Provide complete code listings, not snippets or examples. Code should be runnable and respect-worthy. Put all code in a single Python program. Refactor if scripts are getting too long. At the beginning of each script, provide a summary of exactly what lines of code changed in comments. The first comment should be the title of the script like #main.py
+
+5. DEFINITION OF DONE FOR PROMPT: Complete listing of any updated script as a full Python program! Refactor if scripts are getting too long.
+
+6. The merged transaction file should only include columns needed for the expense report: date, time (if available), vendor (from the description), amount, currency, bank, card no (last four digits), employer (who will be billed), category, note.
+
+7. When updating programs, provide a summary of exactly what lines of code changed. List script name, old line, new line.
+
+8. Always print out the markdown of expense reports generated in the final markdown report.
+
+9. Handle both date and timestamp columns from bank files correctly. Banks have different column names - Timestamp, Transaction Date, some other name with Date in it. This must behandled seamlessly when creating the merge intermeidate transaction file.
+
+10. All expense reports must be auditable at the transaction level, including bank and card details for each transaction.
+
+11. Every transaction in expense reports should be negative (for expenses).
+
+12. Include the specified note at the bottom of each expense report, followed by a list of bank statement files used.
+
+13. Use "Employee Development" instead of "Employee training" in all categories.
+
+14. Final Report: The program must always generate a final report in markdown format with:
+    - Title with timestamp
+
+    - Expense report product overview
+
+    - Status: Know bugs or failures in this cycle
+
+    - Working directory structure
+
+    - Expedted driectory structure
+
+    - Input: List of bank files accessed with their column structure
+
+    - Processing:
+      - Complete listing of all scripts and json files code that was used
+      - Intermediate files from each bank file with transactions within date range
+        - Intemediate files have same format as bank files and add bank naee and card columes
+      - merged transaction file with all transactions within date range
+        - Merged transaction file has columns: date, time, vendor, amount, currency, bank, card no, employer, category, note
+      - Merged transaction file populates vendor with description column from bank files
+
+    - Output: Expense reports for each employer in markdown format printed out
+    - Console log with timestamp
+    - Final report file with timestamp in filename for archival purposes
+
+15. The final report should contain all artifacts needed to restart this project from the beginning by a new AI team member.
+
+16. Generate a request to teammates (Ohno, Jetbrains AI, Claude 3.5) if three runs occur without a final report, including scripts executed and console failure logs.
+
+17. Generate a final report after every run in markdown format for the Scrum Master Ohno to review progress.
+
+18. You will avoid common misunderstandings. Cryto.com files have a Timestamp. This must be split into a date and time columns. Capital One has debit and credit columns. This must be merged into an amount column where debits are negative and credits are positive. In some bank statements debits may be positive. If it is a debit it should become negative in the amount column.
+
+19. VENDOR: There are multiple types of description columns by diffenent names in bank CSV files. We want to resolve all these into a single Vendor column in the merged intermediate transaction file.
+
+20. Card last four digits are at the end of CSV file names except for Capital One which reports on multiple cards. The Capital One transaction format has a column with the last four digits of the card.

@@ -1,0 +1,172 @@
+{
+  "specific_transactions": {
+    "uber eats": [
+      "Food",
+      "Personal",
+      "Food delivery"
+    ],
+    "spotify": [
+      "Entertainment",
+      "Personal",
+      "Music streaming"
+    ],
+    "netflix": [
+      "Entertainment",
+      "Personal",
+      "Video streaming"
+    ],
+    "cvs": [
+      "Health",
+      "Personal",
+      "Pharmacy"
+    ],
+    "starbucks": [
+      "Food",
+      "Personal",
+      "Coffee"
+    ],
+    "paypal *massachuset": [
+      "tax",
+      "Personal",
+      ""
+    ],
+    "amazon.com*h00 jf2 ym0": [
+      "Hardware",
+      "Frequency Research Foundation",
+      "Netgear router"
+    ],
+    "amazon.com*h85 ev0332": [
+      "Hardware",
+      "Personal",
+      "water bottle"
+    ],
+    "amazon.com*h827 e8 yt0": [
+      "Arline",
+      "Personal",
+      ""
+    ],
+    "amazon.com*ht6 a08 td2": [
+      "Office Supplies",
+      "Frequency Research Foundation",
+      "test essential oil"
+    ],
+    "kindle": [
+      {
+        "card": "3785",
+        "category": "Arline",
+        "employer": "Personal",
+        "note": "Personal Kindle purchase"
+      },
+      {
+        "category": "Employee Development",
+        "employer": "Scrum Inc",
+        "note": "Kindle purchase for Scrum Inc"
+      }
+    ]
+  },
+  "Employee Development": [
+    "Personal",
+    "Scrum Inc",
+    "JVS Management"
+  ],
+  "Fees": [
+    "JVS Management",
+    "Frequency Research Foundation",
+    "Personal"
+  ],
+  "Food": [
+    "Personal"
+  ],
+  "Hardware": [
+    "Frequency Research Foundation"
+  ],
+  "Uncategorized": [
+    "Unknown"
+  ],
+  "Entertainment": [
+    "Personal"
+  ],
+  "Clothes": [
+    "Personal"
+  ],
+  "Drinks": [
+    "Personal"
+  ],
+  "Office Supplies": [
+    "Frequency Research Foundation"
+  ],
+  "Postage": [
+    "Frequency Research Foundation"
+  ],
+  "Software": [
+    "Scrum Inc",
+    "Frequency Research Foundation",
+    "JVS Management"
+  ],
+  "Kickstarter": [
+    "Personal"
+  ],
+  "Donation": [
+    "Donation"
+  ],
+  "Food bank": [
+    "Donation"
+  ],
+  "Health": [
+    "Personal"
+  ],
+  "Parking": [
+    "Personal"
+  ],
+  "Maintenance": [
+    "Personal"
+  ],
+  "Furniture": [
+    "Personal"
+  ],
+  "Monitoring": [
+    "Frequency Research Foundation"
+  ],
+  "Currency": [
+    "Personal"
+  ],
+  "Medical records": [
+    "Frequency Research Foundation"
+  ],
+  "Internet": [
+    "JVS Management"
+  ],
+  "Investment": [
+    "Personal"
+  ],
+  "Party": [
+    "Personal"
+  ],
+  "Arline": [
+    "Personal"
+  ],
+  "Cellphone": [
+    "JVS Management"
+  ],
+  "Storage": [
+    "Scrum Inc"
+  ],
+  "Dog Care": [
+    "Personal"
+  ],
+  "Fraud": [
+    "JVS Management"
+  ],
+  "Banking": [
+    "Personal"
+  ],
+  "Cards": [
+    "Personal"
+  ],
+  "Medical": [
+    "Personal"
+  ],
+  "NeedsReview": [
+    "PendingReview"
+  ]
+}

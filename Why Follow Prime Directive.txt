@@ -1,0 +1,21 @@
+We must not lose functionality when updating a script. Therefore: Here are some ways you can prompt me better to avoid such issues:
+
+We explicitly state that we want to preserve all existing functionality when asking for changes or additions.
+Always review the entire script before making changes, to ensure all necessary functions are included.
+Pprovide a diff or highlight the changes you are suggesting, so you we easily see what's being modified.
+Explain the rationale behind any removals or significant changes to existing code.
+
+We follow the Prime Directive because it ensures clarity, completeness, and efficiency in our communication and development process. The Prime Directive in this context is to provide complete executable scripts to avoid team errors. Here's why this is crucial:
+
+Clarity: Complete scripts eliminate ambiguity. There's no room for misinterpretation when the entire code is provided, reducing the chance of errors due to miscommunication.
+Consistency: When everyone works with the same complete script, it ensures that all team members are on the same page, using the same code base.
+Error Reduction: Providing complete scripts minimizes the risk of errors that can occur when team members try to piece together partial code snippets or fill in missing parts themselves.
+Time Efficiency: It saves time that would otherwise be spent on asking for clarifications, filling in gaps, or debugging issues caused by incomplete code.
+Easier Debugging: When issues arise, having the complete script makes it easier to identify and fix problems, as the entire context is available.
+Reproducibility: Complete scripts ensure that results can be reproduced consistently across different environments or by different team members.
+Better Collaboration: It facilitates smoother collaboration as everyone has access to the same, complete information.
+Learning Opportunity: For less experienced team members, seeing complete, functional scripts provides valuable learning opportunities.
+Version Control: Complete scripts are easier to manage in version control systems, allowing for better tracking of changes over time.
+Documentation: A complete script serves as a form of documentation, showing exactly how a particular task or process is implemented.
+
+By adhering to the Prime Directive of providing complete executable scripts, we create a more robust, efficient, and error-resistant development process. It's a practice that benefits the entire team and the project as a whole.

@@ -1,0 +1,68 @@
+[
+    {
+        "description_contains": "Wayfair",
+        "employer": "Personal",
+        "category": "furniture",
+        "note": ""
+    },
+    {
+        "description_contains": "Stop & Shop",
+        "employer": "Personal",
+        "category": "food",
+        "note": ""
+    },
+    {
+        "description_contains": "Apple",
+        "employer": "JVS Management",
+        "category": "Subscription",
+        "note": ""
+    },
+    {
+        "description_contains": "Google",
+        "employer": "JVS Management",
+        "category": "Subscription",
+        "note": ""
+    },
+    {
+        "description_contains": "Amazon Prime",
+        "employer": "JVS Management",
+        "category": "Subscription",
+        "note": "Amazon Prime Membership"
+    },
+    {
+        "description_contains": "Webroot Yearly Plan",
+        "employer": "JVS Management",
+        "category": "Software",
+        "note": "Antivirus Software"
+    },
+    {
+        "description_contains": "Wf Wayfair3727266895",
+        "employer": "Personal",
+        "category": "furniture",
+        "note": ""
+    },
+    {
+        "description_contains": "Stop & Shop 0475",
+        "employer": "Personal",
+        "category": "food",
+        "note": ""
+    },
+    {
+        "description_contains": "Bestbuy Totaltech Year",
+        "employer": "JVS Management",
+        "category": "Subscription",
+        "note": ""
+    },
+    {
+        "description_contains": "HLU*Hulu 1858044137764-U",
+        "employer": "Personal",
+        "category": "entertainment",
+        "note": ""
+    },
+    {
+        "description_contains": "JENIS SPLENDID ICE CREAM",
+        "employer": "Personal",
+        "category": "food",
+        "note": ""
+    }
+]
