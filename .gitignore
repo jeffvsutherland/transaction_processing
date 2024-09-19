@@ -1,15 +1,36 @@
 # .gitignore
 
-gi
-transaction_processor.egg-info/
-# Python-specific
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large files
+*.dmg
+*.iso
+*.tar
+*.zip
+*.rar
+
+# Python
 __pycache__/
 *.py[cod]
-*.so
+*$py.class
+.venv/
+
+# Project specific
+input/
+output/
+transaction_processor.egg-info/git rm --cached Brave-Browser.dmg
 
 # Virtual environments
 venv/
 env/
+.venv
 .env
 
 # IDE-specific files
