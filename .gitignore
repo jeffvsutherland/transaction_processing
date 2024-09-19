@@ -42,3 +42,6 @@ input/
 output/
 *.csv
 *.log.venv/
+.DS_Store
+*.log
+*.pdf # if you decide not to include PDFs
